@@ -4,13 +4,17 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     
 }
 
 .container {
     background: linear-gradient(#5e391a, #cf6910, #462626);
     border-radius: 15px;
-    max-width: 400px;
+    width: 400px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -40,4 +44,82 @@ body {
 .destaque:hover{
     background-color: #323232;
     transform: scale(1.02);
+}
+
+.area-contato {
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.btn-msg {
+    display: inline-block;
+    background-color: #e98445;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-msg:hover {
+    background-color: #ff3f2e;
+    transform: scale(1.1);
+}
+.campo-texto {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00ff88;
+    color: #003311;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 20px;
+    border: 1px solid rgba(255,255,255, 0.5);
+    color: rgba(255,255,255, 0.8);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.erro {
+    color: #ff4444;
+    background: #330000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sucesso {
+    color: #00ff88;
+    background: #003311;
+    padding: 10px;
+    border-radius: 5px;
 }

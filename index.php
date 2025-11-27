@@ -48,6 +48,10 @@
        
     }     
         ?>
+
+        </div>
+         <div class="area-contato">
+            <a href="contato.php" class="btn-msg">📧 Mandar Mensagem</a>
         </div>
     </div>
 </body>
