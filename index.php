@@ -2,7 +2,7 @@
     // --- DADOS DO PERFIL (PREENCHA COM SEUS DADOS) ---
     $nome = "Miguel";
     $bio = "lindo";
-    $imagem = "https://s2-redeglobo.glbimg.com/dJYmr2pxBJQPPciB-VYyMmvv5UE=/0x0:1080x1350/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2020/j/w/1GCID6TCe5ZrpCIuOxLg/dunn.mckinley-121092027-122215422759394-3550698255644051203-n.jpg"; // Pegue o link da SUA foto.
+    $imagem = "https://pm1.aminoapps.com/6814/7e06ce00d02766c5000cbc63bcfb6b98a4542c0fv2_hq.jpg"; // Pegue o link da SUA foto.
      $links = [
         "Instagram" => "https://instagram.com/@elvis",
         "WhatsApp"  => "https://wa.me/17997243667",
