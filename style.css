@@ -65,6 +65,10 @@ body {
     transform: scale(1.02);
 }
 
+.destaque{
+    background-color: #330000;
+}
+
 .destaque:hover{
     background-color: #323232;
     transform: scale(1.02);

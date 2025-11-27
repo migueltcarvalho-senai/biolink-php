@@ -23,6 +23,7 @@
 </head>
 <body>
     <div class="container">
+        
         <img src="<?php echo $imagem; ?>" alt="Foto de Perfil" class="avatar">
 
         <h1> <?php echo $nome; ?> </h1>
@@ -37,6 +38,7 @@
         
         // adição da classe extra no botao whatsapp
         if($url == "https://wa.me/17997243667"){
+            
             
         $classe_extra = "destaque";}
 
@@ -55,4 +57,6 @@
         </div>
     </div>
 </body>
+
+
 </html>
